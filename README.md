@@ -1,3 +1,4 @@
+```
 require_once("../common/php/environment.php");
 $db = new Database("test");
 $result = $db->execute("SELECT * FROM car");
@@ -37,7 +38,7 @@ foreach (var item in estates)
     statistics[item.categoryName]++;
   }
 }
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Console.WriteLine("8.feladat: Statisztika");
 foreach (var item in statistics)
 {
@@ -55,4 +56,4 @@ foreach (var item in estates)
 sw.Flush();
 sw.Close();
 
-
+```
